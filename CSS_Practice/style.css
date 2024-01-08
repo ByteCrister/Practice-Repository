@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* start */
+
+.coming-soon-main{
+    background-color: #FFF;
+    /* background-color: #5ec7b9; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+    
+}
+
+.coming-soon-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 30%;
+    /* background-color: #377e74; */
+}
+.coming-soon-left>div{
+    margin: 5px ;
+}
+.coming-soon-left h5{
+    color: #F00;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.coming-soon-left h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.coming-soon-left p{
+    line-height: 20px;
+    color: rgb(105, 88, 88);
+    font-weight: 600;
+}
+
+.coming-soon-middle{
+    width: 300px;
+    height: 300px;
+    background-color: #377e74;
+    border: 10px solid #F00;
+    border-radius: 50%;
+}
+
+#img-1{
+    width: 100%;
+    border: 15px solid white;
+    border-radius: 50%;
+
+}
+
+
+.coming-soon-right{
+    /* background-color: #377e74; */
+    max-width: 25%;
+    padding: 10px;
+}
+
+.coming-soon-right>div{
+    margin: 20px 0px;
+}
+
+#img-2{
+    width: 50%;
+
+}
+.coming-soon-right h1{
+    color: #F00;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.coming-soon-right p{
+    font-weight: 600;
+    color: rgb(126, 111, 111);
+}
+/* end */
+
+
+
+
+/* start */
+.holiday-main{
+    /* background-color: #377e74; */
+    position: relative;
+    max-width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.holiday-top{
+    /* background-color: #377e74; */
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.holiday-top h3{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.holiday-top h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px auto;
+    
+}
+.holiday-top h1 span{
+    margin-right: 10px;
+}
+.holiday-top h1::before{
+    content: "Holidays ";
+    color: #F00;
+}
+
+.holiday-top p{
+    color: rgb(136, 121, 103);
+    font-weight: 550;
+}
+
+.holiday-middle{
+    box-sizing: border-box;
+    margin-top: 20px;
+    /* background-color: #377e74; */
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.girl{
+   width: 30%;
+   height: 280px;
+   /* background-color: aqua; */
+}
+#img-3{
+    width: 100%;
+    height: auto;
+}
+
+.discount{
+    position: absolute;
+    box-sizing: border-box;
+    width: 20%;
+    top: 10%;
+    right: 20%;
+    
+}
+#img-4{
+    width: 100%;
+}
+
+.holiday-bottom{
+    /* background-color: #377e74; */
+    box-sizing: border-box;
+}
+#img-5,#img-6{
+    width: 100%;
+}
+
+.box-div{
+    width: 30%;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
